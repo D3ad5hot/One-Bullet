@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\AbstractCriterionAlgorithm.cs" />
+    <Compile Include="Algorithms\NumberCriterionAlgorithm.cs" />
     <Compile Include="Cluster.cs" />
     <Compile Include="ClusterPair.cs" />
     <Compile Include="ClusterPairs.cs" />

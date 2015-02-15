@@ -30,6 +30,10 @@ namespace HierarchicalClusteringProject
                 this.elements.Add(e);
             }
         }
+        internal Elements[] GetElements()
+        {
+            return elements.ToArray<Elements>();
+        }
 
         internal float CalculateDistance(Cluster otherCluster)
         {
