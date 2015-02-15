@@ -14,6 +14,9 @@ namespace HierarchicalClusteringProject
         HashSet<object> dataPoints = new HashSet<object>();
         string id;
 
+        /// <summary>
+        /// return the id of the element
+        /// </summary>
         public string ID
         {
             get { return id; }
