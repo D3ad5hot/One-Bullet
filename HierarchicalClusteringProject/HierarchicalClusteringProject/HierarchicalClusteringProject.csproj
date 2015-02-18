@@ -47,8 +47,10 @@
     <Compile Include="ClusterPair.cs" />
     <Compile Include="ClusterPairs.cs" />
     <Compile Include="Elements.cs" />
+    <Compile Include="Fusions\CompleteLinkage.cs" />
     <Compile Include="Fusions\Fusion.cs" />
     <Compile Include="Fusions\SingleLinkage.cs" />
+    <Compile Include="HACStart.cs" />
     <Compile Include="TestMain.cs" />
     <Compile Include="Matrics\IDistanceMetric.cs" />
     <Compile Include="Matrics\JaccardDistance.cs" />
